@@ -1,0 +1,1773 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+#body-container
+{
+	background-image:url("rm218-bb-04.jpg");
+	background-position: center;
+	background-size: cover;	 	
+}
+
+#main_container
+{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;	
+}
+
+#navbar_main
+{
+	background-color:transparent;
+	border:0px;
+} 
+
+
+#id_brand
+{
+	color:white;
+	font-size:16px;
+	font-weight: bold;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#li_list
+{
+	margin-left: 10%;
+}
+
+#li_list a
+{
+	margin-left: 10px;
+	color:white;
+	font-size:12px;	
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contactcontent_container
+{
+	position:relative;
+	width:100%;
+	display:flex;
+	float:left;
+	padding:20px;	
+	border-radius:10px;
+}
+
+.content_p1
+{
+	position:relative;
+	width:50%;
+	height:100%;
+	padding:50px; 	 
+	margin-left:px;	
+	border-radius:20px; 
+	
+}
+
+.p1
+{
+	position: relative;
+	color:white; 
+	font-size:30px;
+	font-weight:bold;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p2
+{
+	position: relative;
+	color:white;  
+	font-size:20px;
+	font-style:bold;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contactdetails
+{
+	position: relative;
+	width:250px;
+	height:50px;
+	padding:10px;
+	margin-top:30px; 
+	border-radius:20px;
+}
+ 
+.contactdetails a
+{
+	position: relative;
+	border-radius: 20px;
+	color:white;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contactdetails img
+{
+	border-radius: 20px;
+}
+.whatsappdetails
+{
+	position:relative;	
+	width:250px;
+	height:50px;
+	padding:10px;
+	border-radius:20px;	
+}
+ 
+.whatsappdetails a
+{
+	position: relative;
+	color:white;
+	border-radius: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;	
+}
+
+.whatsappdetails img
+{
+	border-radius: 20px;
+}
+
+.emaildetails
+{
+	position: relative;
+	width:250px;
+	height:50px;
+	padding:10px;	 
+	border-radius:20px;
+}
+
+.emaildetails a
+{
+	position: relative;
+	color:white;
+	border-radius: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;	
+}
+
+.emaildetails-img{
+	border-radius: 20px;
+}
+
+.sociallink
+{
+	position:relative;
+	width:200px;
+	height:50px;	
+	display: flex;
+	gap:15px;
+	padding-left: 5px;
+	margin-top:70px;
+}
+
+.sociallink a
+{
+	position:relative;
+	width:70px;
+	height:70px;
+}
+
+.sociallink img
+{
+	position: relative;
+	width:70px;
+	height:70px;
+}
+
+.content_p2
+{
+	position:relative;
+	width:50%;
+	height:550px;	 
+	margin-left:20px;
+	padding:50px;	 
+	box-shadow: 0 8px 16px 0 rgba(252, 253, 253,0.1);
+	border-radius:20px;
+}
+
+.name-label
+{
+	position:relative;
+	font-size:15px;
+	width:100%;
+	height: 30px;
+	color:white;
+	border-radius:20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.input-type
+{
+	position:relative;
+	width:100%;
+	color:white;
+	height:40px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	padding:10px;
+	background-color: transparent;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textare-input
+{
+	position:relative;
+	width:100%;
+	height:100px;
+	color:white;
+	background-color: transparent;
+	border: 1px solid white;
+	padding:10px;
+	border-bottom-left-radius:10px ;
+	border-bottom-right-radius: 10px; 
+}
+
+.form-button-div
+{
+	position:relative;
+	width:100%;
+	height:60px;
+}
+
+.button
+{
+	position:relative;
+	width:30%;
+	height:50px;
+	margin-left: 35%;
+	border-radius:10px;
+	font-size:15px;
+	border:0px;
+	color:black;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background-color:white;
+}
+@media only screen and (min-width:0px)
+{
+	.contactcontent_container
+	{
+		width:100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{	
+		width:100%;
+		height:auto;
+		padding: 10px;
+	}
+
+	.p1
+	{
+		width:auto;
+		height:10px;
+		font-size: 12px;
+	}
+
+	.p2
+	{
+		font-size: 10px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 10px;	
+	}
+
+	.contactdetails  img
+	{
+		width:20px;
+		height:20px;
+	}
+
+	.whatsappdetails
+	{
+		width: 100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 10px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 20px;
+		height: 20px;
+	}
+
+	.emaildetails
+	{
+		width: 100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 10px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 20px;
+		height: 20px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:20px;
+		height:20px;
+	}
+
+	.sociallink img
+	{
+		width:20px;
+		height:20px;
+	}
+
+	.content_p2
+	{
+		width:100%;
+		height:auto;
+		padding:5px;
+		margin-left: -5px;
+	}	
+
+	.name-label
+	{
+		width:100%;
+		height:30px;
+		padding:10px;
+		font-size:10px;
+	}
+
+	.input-type
+	{
+		width:100%;
+		font-size:10px;
+	}
+
+	.textare-input
+	{
+		width:100%;
+		font-size:10px;
+	}
+
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		width:auto;
+		height:30px;
+		font-size:10px;		
+	}
+}
+
+@media only screen and (min-width:380px)
+{
+	.contactcontent_container
+	{		
+		width:100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{	
+		width:100%;
+		height:auto;		
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 18px;
+	}
+
+	.p2
+	{
+		margin-top: 15px;
+		font-size: 12px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 12px;	
+	}
+
+	.contactdetails  img
+	{
+		width:30px;
+		height:30px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 12px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 30px;
+		height: 30px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 12px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 30px;
+		height: 30px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+
+	.content_p2
+	{
+		width:auto;
+		height: auto;
+		margin-left: -5px;
+	}
+
+	.name-label
+	{
+		width:100%;
+		height:50px;
+		padding:10px;
+		font-size:12px;
+	}
+
+	.input-type
+	{
+		width:100%;
+		height: auto;
+		font-size: 12px;
+	}
+
+	.textare-input
+	{
+		width:100%;
+		font-size: 12px;
+	}
+
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 5px;
+		font-size: 12px;
+		width:auto;	
+		margin-left: 40%;	
+	}
+}
+
+@media only screen and (min-width:556px) 
+{
+	.contactcontent_container
+	{		
+		width:100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{	
+		width:100%;
+		height:auto;
+		
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 18px;
+	}
+
+	.p2
+	{
+		margin-top: 15px;
+		font-size: 15px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 12px;	
+	}
+
+	.contactdetails  img
+	{
+		width:30px;
+		height:30px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 12px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 30px;
+		height: 30px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 12px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 30px;
+		height: 30px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+
+	.content_p2
+	{
+		width:auto;
+		height: auto;
+		margin-left: -5px;
+	}
+
+	.name-label
+	{
+		width:100%;
+		height:50px;
+		padding:10px;
+		font-size:12px;
+	}
+
+	.input-type
+	{
+		width:100%;
+		height: auto;
+		font-size: 12px;
+	}
+
+	.textare-input
+	{
+		width:100%;
+		font-size: 12px;
+	}
+
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		font-size: 12px;
+		width:auto;	
+		margin-left: 40%;	
+	}
+}
+
+@media only screen and (min-width:768px)
+{
+	.contactcontent_container
+	{
+		width:100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+		align-items: center;
+		justify-content:center;	
+	 
+	}
+
+	.content_p1
+	{	
+		width:100%;
+		height:auto;
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 20px;
+	}
+
+	.p2
+	{
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.contactdetails  img
+	{
+		width:50px;
+		height:50px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 15px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+
+	.content_p2
+	{
+		width:100%;
+		height: auto;
+		margin-left: -5px;
+	}
+
+	.name-label
+	{
+		width:100%;
+		height:50px;
+		padding:10px;
+		font-size:15px;
+	}
+
+	.input-type
+	{
+		width:100%;
+		height: auto;
+		font-size: 15px;
+	}
+
+	.textare-input
+	{
+		width:100%;
+		
+	}
+
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		width:auto;
+		height:35px;	
+		margin-left: 45%;	
+	}
+}
+
+@media only screen and (min-width:992px)
+{
+	.contactcontent_container
+	{
+		width:100%;
+		height:500px ;
+		display: flex;
+		flex-direction: row;
+		gap:10px;
+		align-items: center;
+		justify-content:center;	
+	 
+	}
+	.content_p1
+	{	
+		position:relative;
+		width:50%;
+		height:100%;
+		padding: 10px;
+		
+	}
+
+	.p1
+	{
+		position: relative;
+		font-size: 20px;
+	}
+
+	.p2
+	{
+		position: relative;
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	.contactdetails
+	{
+		position:relative;
+		width: 100%;
+		height:auto;
+		margin-top: 15px;
+		
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.contactdetails  img
+	{
+		width:50px;
+		height:50px;
+	}
+
+	.whatsappdetails
+	{
+		position:relative;
+		width:100%;
+		height:auto;
+		margin-top: 5px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.whatsappdetails img
+	{	width: 50px;
+		height: 50px;
+	}
+
+	.emaildetails
+	{
+		position: relative;
+		width:100%;
+		height:auto;
+		margin-top: 5px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 15px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociallink
+	{
+		margin-top: 40px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+
+	.content_p2
+	{
+		width:50%;
+		height: auto;
+		margin-left: -5px;
+	}
+
+	.name-label
+	{
+		width:100%;
+		height:50px;
+		padding:10px;
+		font-size:15px;
+	}
+
+	.input-type
+	{
+		width:100%;
+		height: auto;
+		font-size: 15px;
+	}
+
+	.textare-input
+	{
+		width:100%;
+		
+	}
+
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		width:auto;	
+		margin-left: 40%;	
+	}
+}
+
+@media only screen and (min-width:1200px)
+{
+	.contactcontent_container
+	{
+		width:100%;
+		height: 500px;
+		display: flex;
+		flex-direction: row;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{	
+		width:50%;
+		height:100%;
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 20px;
+	}
+
+	.p2
+	{
+		font-size: 18px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.contactdetails  img
+	{
+		width:50px;
+		height:50px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 15px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:40px;
+		height:40px;
+	}
+	.content_p2
+	{
+		width:50%;
+		height: auto;
+		margin-left: -5px;
+	}
+	
+	.name-label
+	{
+		width:100%;
+		height:50px;
+		padding:10px;
+		font-size:17px;
+	}
+
+	.input-type
+	{
+		width:100%;
+		height: auto;
+		font-size: 17px;
+	}
+
+	.textare-input
+	{
+		width:100%;
+		font-size: 17px;
+	}
+
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		width:auto;
+		height:40px;
+		font-size: 17px;	
+		margin-left: 40%;	
+	}
+
+}
+
+@media only screen and (min-width:1400px)
+{
+	.contactcontent_container
+	{
+		width:100%;
+		height: 500px;
+		display: flex;
+		flex-direction: row;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{	
+		width:50%;
+		height:100%;
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 20px;
+	}
+
+	.p2
+	{
+		font-size: 18px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.contactdetails  img
+	{
+		width:50px;
+		height:50px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 15px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+	.content_p2
+	{
+		width:50%;
+		height: auto;
+		margin-left: -5px;
+	}
+	
+	.name-label
+	{
+		width:100%;
+		height:50px;
+		padding:10px;
+		font-size:17px;
+	}
+
+	.input-type
+	{
+		width:100%;
+		height: auto;
+		font-size: 17px;
+	}
+
+	.textare-input
+	{
+		width:100%;
+		font-size: 17px;
+	}
+
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		width:auto;
+		height:40px;
+		font-size: 17px;	
+		margin-left: 40%;	
+	}
+}
+
+@media only screen and (min-width:1700px)
+{
+	.contactcontent_container
+	{
+		width:100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{		
+		width:50%;
+		height:50%;
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 20px;
+	}
+
+	.p2
+	{
+		font-size: 18px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.contactdetails  img
+	{
+		width:50px;
+		height:50px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 15px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+	.content_p2
+	{
+		width:50%;
+		height:50%;
+		margin-left: -5px;
+	}	
+	 
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		width:auto;
+		height:40px;
+		font-size: 17px;	
+		margin-left: 40%;	
+	}
+}
+ 
+
+@media only screen and (min-width:1900px)
+{
+	.contactcontent_container
+	{
+		width:100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{	
+	
+		width:50%;
+		height:50%;
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 20px;
+	}
+
+	.p2
+	{
+		font-size: 18px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.contactdetails  img
+	{
+		width:50px;
+		height:50px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 15px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+	.content_p2
+	{
+		width:50%;
+		height:50%;
+		margin-left: -5px;
+	}	
+	 
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		width:auto;
+		height:40px;
+		font-size: 17px;	
+		margin-left: 40%;	
+	}
+}
+
+@media only screen and (min-width:2400px)
+{
+	.contactcontent_container
+	{
+		width:100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{
+		width:50%;
+		height:50%;
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 20px;
+	}
+
+	.p2
+	{
+		font-size: 18px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.contactdetails  img
+	{
+		width:50px;
+		height:50px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 15px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+	.content_p2
+	{
+		width:50%;
+		height:50%;
+		margin-left: -5px;
+	}	
+	 
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		width:auto;
+		height:40px;
+		font-size: 17px;	
+		margin-left: 40%;	
+	}
+}
+
+@media only screen and (min-width:2600px){
+	.contactcontent_container
+	{
+		width:100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		gap:10px;
+		align-items: center;
+		justify-content:center;		
+	}
+
+	.content_p1
+	{
+		width:50%;
+		height:50%;
+		padding: 10px;
+	}
+
+	.p1
+	{
+		font-size: 20px;
+	}
+
+	.p2
+	{
+		font-size: 18px;
+	}
+
+	.contactdetails
+	{
+		width: 100%;
+		height:auto ;
+		margin-top: -5px;
+	}
+ 
+	.contactdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.contactdetails  img
+	{
+		width:50px;
+		height:50px;
+	}
+
+	.whatsappdetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+ 
+	.whatsappdetails a
+	{
+		font-size: 15px;	
+	}
+
+	.whatsappdetails img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.emaildetails
+	{
+		width:100%;
+		height:auto;
+		margin-top: -15px;
+	}
+
+	.emaildetails a
+	{
+		font-size: 15px;	
+	}
+
+	.emaildetails-img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.sociallink
+	{
+		margin-top: 20px;
+	}
+
+	.sociallink a
+	{
+		position:relative;
+		width:30px;
+		height:30px;
+	}
+
+	.sociallink img
+	{
+		width:30px;
+		height:30px;
+	}
+	.content_p2
+	{
+		width:50%;
+		height:50%;
+		margin-left: -5px;
+	}	
+	 
+	.form-button-div
+	{
+		width:100%;
+		height:auto;
+	}
+
+	.button
+	{
+		padding: 10px;
+		width:auto;
+		height:40px;
+		font-size: 17px;	
+		margin-left: 40%;	
+	}
+}
+ 
+ 
